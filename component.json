@@ -1,0 +1,13 @@
+{
+  "name": "canvas-battery",
+  "repo": "bencevans/canvas-battery",
+  "description": "Canvas Battery Status",
+  "version": "0.1.0",
+  "keywords": ["canvas", "battery"],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

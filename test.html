@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title></title>
+  <script type="text/javascript" src="./build/build.js"></script>
+</head>
+<body>
+  <canvas id="battery" width=200 height=100></canvas>
+
+  <script type="text/javascript">
+var Battery = require('canvas-battery');
+
+var battery = new Battery(document.getElementById('battery'), 50);
+
+var change = 1;
+
+setInterval(function() {
+
+  if(battery.charge === 0 || battery.charge === 100)
+    change = -change;
+
+  battery.update(battery.charge + change);
+
+}, 20);
+
+  </script>
+</body>
+</html>
