@@ -2,10 +2,12 @@
   "name": "canvas-battery",
   "repo": "bencevans/canvas-battery",
   "description": "Canvas Battery Status",
+  "author": "Ben Evans <ben@bensbit.co.uk>",
   "version": "0.1.0",
   "keywords": ["canvas", "battery"],
   "dependencies": {},
   "development": {},
+  "twitter": "@bencevans",
   "license": "MIT",
   "scripts": [
     "index.js"
